@@ -43,6 +43,7 @@ These wireframes were created using [Mockflow](https://wireframepro.mockflow.com
 - Arial, sans-serif: This font family is used for the body of the site.
 
 **Logo:**
+
 ![Logo of the Website](Wireframes-Logo/Dise%C3%B1o%20sin%20t%C3%ADtulo.png)
 
 ## Author
