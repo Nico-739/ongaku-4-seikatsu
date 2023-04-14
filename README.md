@@ -32,6 +32,19 @@ Here are the wireframes for the Ongaku-4-seikatsu website:
 
 These wireframes were created using [Mockflow](https://wireframepro.mockflow.com), a tool that allows for easy and intuitive website prototyping. They were used as a basis for the website's design and layout, ensuring that the final product would be both visually appealing and user-friendly.
 
+## Styleguide
+**Colors:**
+- **#333:** This color is used as the background color of the header and footer, as well as the color of the links in the site.
+- **mediumturquoise:** This color is used as the background color of the cards in column 2.
+- **lightblue:** This color is used as the background color of the pseudo-elements (::before and ::after) that appear on hover on the cards in column 2.
+- **#ebadb6 and #aceae1:** These colors are used as the start and end points of the gradient used in the background of the slider.
+
+**Fonts:**
+- Arial, sans-serif: This font family is used for the body of the site.
+
+**Logo:**
+![Logo of the Website](Wireframes-Logo/Dise%C3%B1o%20sin%20t%C3%ADtulo.png)
+
 ## Author
 The website was developed by Nicolaj Haueter, a passionate music enthusiast and web developer.
 
