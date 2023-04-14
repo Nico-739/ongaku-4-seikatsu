@@ -23,6 +23,15 @@ To access the website, simply download or clone the repository to your local dev
 - CSS
 - JavaScript
 
+## Wireframes
+Here are the wireframes for the Ongaku-4-seikatsu website:
+
+**Main Page:**![Image of mainpage](Wireframes/Screenshot%202023-04-14%20133311.png)
+
+**Artist Gallery:** ![Image of artist gallery](Wireframes/Screenshot%202023-04-14%20133411.png)
+
+These wireframes were created using [Mockflow](https://wireframepro.mockflow.com), a tool that allows for easy and intuitive website prototyping. They were used as a basis for the website's design and layout, ensuring that the final product would be both visually appealing and user-friendly.
+
 ## Author
 The website was developed by Nicolaj Haueter, a passionate music enthusiast and web developer.
 
