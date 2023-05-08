@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let artistName = document.getElementById('artist-name');
     let artistDescription = document.getElementById('artist-description');
   
-    let active = 3;
+    let active = 2;
     function loadShow(){
         let stt = 0;
         items[active].style.transform = `none`;
@@ -31,26 +31,26 @@ document.addEventListener("DOMContentLoaded", function() {
         // Update artist info based on active index
         switch (active) {
           case 0:
-            artistName.innerText = 'Artist 1';
-            artistDescription.innerText = 'Hello';
-            break;
+            artistName.innerText = 'Tyler, the Creator';
+            artistDescription.innerText = 'Tyler Gregory Okonma, better known as Tyler, the Creator, is an American rapper, musician, songwriter, producer, and music video director. He rose to prominence as the co-founder of the alternative hip hop collective Odd Future and has since released several solo albums. Tyler is known for his unconventional style and creative approach to music and has won several awards for his work.';
+            break;              
           case 1:
-            artistName.innerText = 'Artist 2';
-            artistDescription.innerText = 'Description of Artist 2';
+            artistName.innerText = 'Kendrick Lamar';
+            artistDescription.innerText = 'Kendrick Lamar Duckworth is an American rapper, songwriter, and record producer. He first gained major recognition in 2012 with the release of his album "good kid, m.A.A.d city", which received widespread critical acclaim and earned him several Grammy nominations. He has since released several more successful albums and is widely regarded as one of the most important and influential artists of his generation.';
             break;
           case 2:
-            artistName.innerText = 'Artist 3';
-            artistDescription.innerText = 'Description of Artist 3';
+            artistName.innerText = 'XXXTENTACION';
+            artistDescription.innerText = 'Jahseh Dwayne Ricardo Onfroy, known professionally as XXXTentacion, was an American rapper, singer, and songwriter. He gained popularity in the late 2010s with his emo-influenced sound and controversial public persona. He was tragically murdered in 2018 at the age of 20.';
             break;
           case 3:
-            artistName.innerText = 'Artist 4';
-            artistDescription.innerText = 'Description of Artist 4';
+            artistName.innerText = 'NF';
+            artistDescription.innerText = 'Nathan John Feuerstein, known professionally as NF, is an American rapper, singer, and songwriter. He first gained recognition with the release of his album "Mansion" in 2015, and has since released several more successful albums. He is known for his emotionally raw and introspective lyrics, which often deal with themes of mental health and personal struggle.';
             break;
           case 4:
-            artistName.innerText = 'Artist 5';
-            artistDescription.innerText = 'Description of Artist 5';
+            artistName.innerText = 'Lil peep';
+            artistDescription.innerText = 'Gustav Elijah Åhr, known professionally as Lil Peep, was an American rapper, singer, and songwriter. He first gained popularity on SoundCloud with his unique blend of emo and hip hop music, and went on to release several successful albums before his tragic death from a drug overdose in 2017 at the age of 21.';
             break;
-        }
+        }        
     }
     loadShow();
     next.onclick = function(){
