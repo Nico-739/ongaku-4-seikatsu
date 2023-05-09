@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
             break;
           case 12:
             artistName.innerText = 'Yeat';
-            artistDescription.innerText = 'Yeat is a musical artist who specializes in electronic music. He has released several successful albums and is known for his unique sound and style. His real name is Kai Wachi and he started his music career in 2015 with his debut EP, "Vision". Yeat has collaborated with several other artists and DJs, including Slushii and Dirty Audio.';
+            artistDescription.innerText = 'Noah Olivier Smith, known professionally as Yeat, is an American rapper, songwriter, and record producer. He gained popularity in mid-2021 with his debut mixtape "4L" and his debut studio album "Up 2 Me". Yeats music is primarily hip-hop, with influences from trap and drill. He often raps about personal experiences and themes of wealth, success, and romance. Some of his tracks, including "Money So Big" and "Get Busy", went viral on TikTok.';
             break;
           case 13:
             artistName.innerText = 'Billie Eilish';

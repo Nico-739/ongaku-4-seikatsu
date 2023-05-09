@@ -71,4 +71,35 @@ html, body {
   input[type="submit"]:hover {
     background-color: #6c5278;
   }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(var(--color-primary), var(--color-secondary));
+    border-radius: 50%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+  }
   
+  .circle:nth-child(1) {
+    top: -25px;
+    left: -25px;
+  }
+  
+  .circle:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down1;
+  }
+  
+  @keyframes move-up6 {
+    to {
+      transform: translateY(-15px);
+    }
+  }
+  
+  @keyframes move-down1 {
+    to {
+      transform: translateY(15px);
+    }
+  }  

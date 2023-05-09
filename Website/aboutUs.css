@@ -1,14 +1,16 @@
 :root {
-    --color-primary: #7f6390c4;
-    --color-secondary: #b5b5b5;
-    --color-text: #333333;
-    --color-background: #5e286d31;;
-  }
+  --color-primary: #ff0080;  
+  --color-secondary: #00ffcc;  
+  --color-text: #ffffff;  
+  --color-background: #1d1d1d;  
+}
     
    /* General styles */
+
+  @import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
   
   body {
-    font-family: Verdana, sans-serif;
+    font-family: 'Sigmar One', sans-serif;
     margin: 0;
     padding: 0;
     font-size: 16px;
