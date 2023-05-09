@@ -1,8 +1,8 @@
 :root {
   --color-primary: #7f6390c4;
-  --color-secondary: #e4e4e4;
+  --color-secondary: #b5b5b5;
   --color-text: #333333;
-  --color-background: #ffffff;
+  --color-background: #5e286d31;
 }
   
  /* General styles */
@@ -51,6 +51,7 @@ ul {
 }
 
 /* Header styles */
+
 header {
   background-color: var(--color-primary);
   color: #fff;
@@ -88,7 +89,7 @@ nav li:last-child {
 nav a {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   transition: all 0.3s ease;
@@ -126,13 +127,24 @@ nav a:hover {
 }
 
 #username-display {
-  color: white;
+  color: #ffffff;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
+}
+
+#username-display:hover {
+  color: var(--color-secondary);
+  text-decoration: none;
 }
 
 .username {
   color: var(--color-text);
+}
+
+@media only screen and (max-width: 768px) {
+  #username-display {
+    font-size: 16px;
+  }
 }
 
 /* Banner styles */

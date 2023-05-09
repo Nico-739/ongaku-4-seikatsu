@@ -1,7 +1,7 @@
 console.log('storeUsername function called');
 function storeUsername() {
 	const username = document.getElementById('username').value;
-	document.cookie = `username=${username}; max-age=3600; path=/`; // Store the username in a cookie for 1 hour
+	document.cookie = `username=${username}; max-age=31536000; path=/`; // Store the username in a cookie for a year
 }
 
 const loginForm = document.getElementById('login-form');
