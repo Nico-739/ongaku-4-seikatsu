@@ -50,6 +50,46 @@ document.addEventListener("DOMContentLoaded", function() {
             artistName.innerText = 'Lil peep';
             artistDescription.innerText = 'Gustav Elijah Åhr, known professionally as Lil Peep, was an American rapper, singer, and songwriter. He first gained popularity on SoundCloud with his unique blend of emo and hip hop music, and went on to release several successful albums before his tragic death from a drug overdose in 2017 at the age of 21.';
             break;
+          case 5:
+            artistName.innerText = 'Ski Mask The Slump God';
+            artistDescription.innerText = 'Stokeley Clevon Goulbourne, known professionally as Ski Mask the Slump God, is an American rapper and songwriter. He first gained popularity on SoundCloud and went on to release several successful mixtapes and albums, including "Beware the Book of Eli" and "Stokeley".';
+            break;
+          case 6:
+            artistName.innerText = '21 Savage';
+            artistDescription.innerText = 'Shéyaa Bin Abraham-Joseph, known professionally as 21 Savage, is a British-American rapper and songwriter. He gained popularity in 2015 with his mixtape "The Slaughter Tape" and has since released several successful projects, including "Issa Album" and "I Am > I Was".';
+            break;
+          case 7:
+            artistName.innerText = 'Eminem';
+            artistDescription.innerText = 'Marshall Bruce Mathers III, known professionally as Eminem, is an American rapper, songwriter, and record producer. He is considered one of the greatest and most influential rappers of all time and has sold over 150 million records worldwide. His albums include "The Slim Shady LP", "The Marshall Mathers LP", and "Kamikaze".';
+            break;
+          case 8:
+            artistName.innerText = 'SZA';
+            artistDescription.innerText = 'Solána Imani Rowe, known professionally as SZA, is an American singer and songwriter. She gained critical acclaim for her debut studio album "Ctrl", which was nominated for several Grammy Awards. Her other projects include "Z" and "A".';
+            break;
+          case 9:
+            artistName.innerText = 'The Weeknd';
+            artistDescription.innerText = 'Abel Makkonen Tesfaye, known professionally as The Weeknd, is a Canadian singer, songwriter, and record producer. He gained popularity with his mixtapes "House of Balloons", "Thursday", and "Echoes of Silence" before releasing his debut studio album "Kiss Land". His other projects include "Starboy" and "After Hours".';
+            break;
+          case 10:
+            artistName.innerText = 'Metro Boomin';
+            artistDescription.innerText = 'Leland Tyler Wayne, known professionally as Metro Boomin, is an American record producer, songwriter, and DJ. He has produced numerous chart-topping singles and albums for artists such as Future, Drake, and 21 Savage. His solo projects include "Not All Heroes Wear Capes" and "Without Warning".';
+            break;
+          case 11:
+            artistName.innerText = 'Travis Scott';
+            artistDescription.innerText = 'Jacques Berman Webster II, known professionally as Travis Scott, is an American rapper, singer, songwriter, and record producer. He gained popularity with his mixtapes "Owl Pharaoh" and "Days Before Rodeo" before releasing his debut studio album "Rodeo". His other projects include "Astroworld" and "Jackboys".';
+            break;
+          case 12:
+            artistName.innerText = 'Yeat';
+            artistDescription.innerText = 'Yeat is a musical artist who specializes in electronic music. He has released several successful albums and is known for his unique sound and style. His real name is Kai Wachi and he started his music career in 2015 with his debut EP, "Vision". Yeat has collaborated with several other artists and DJs, including Slushii and Dirty Audio.';
+            break;
+          case 13:
+            artistName.innerText = 'Billie Eilish';
+            artistDescription.innerText = 'Billie Eilish is a singer-songwriter known for her haunting vocals and introspective lyrics. She has won several Grammy Awards and is widely regarded as one of the most influential artists of her generation. Eilish gained popularity in 2015 with her debut single "Ocean Eyes" and went on to release her debut album "When We All Fall Asleep, Where Do We Go?" in 2019, which was a commercial and critical success.';
+            break;
+          case 14:
+            artistName.innerText = 'ASAP Rocky';
+            artistDescription.innerText = 'ASAP Rocky is a rapper, songwriter, and record producer. He has released several successful albums and is known for his distinctive flow and style. His real name is Rakim Athelaston Mayers and he started his music career in 2007 with the release of his first mixtape, "Deep Purple". Rocky has collaborated with several other artists, including Rihanna and Drake.';
+            break;
         }        
     }
     loadShow();

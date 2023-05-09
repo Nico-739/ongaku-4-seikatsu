@@ -51,7 +51,6 @@ ul {
 }
 
 /* Header styles */
-
 header {
   background-color: var(--color-primary);
   color: #fff;
@@ -77,6 +76,13 @@ nav ul {
 
 nav li {
   margin: 0 10px;
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
+
+nav li:last-child {
+  border-right: none;
+  padding-right: 0;
 }
 
 nav a {
@@ -110,11 +116,23 @@ nav a:hover {
 
   nav li {
     margin: 10px 0;
+    border-right: none;
+    padding-right: 0;
   }
 
   nav a {
     font-size: 16px;
   }
+}
+
+#username-display {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.username {
+  color: var(--color-text);
 }
 
 /* Banner styles */
@@ -139,8 +157,9 @@ nav a:hover {
 }
 
 /* Main styles */
+
 main {
-  min-height: calc(80vh - 42px);
+  min-height: calc(90vh - 50px);
   padding: 0px 50px;
   display: flex;
   flex-wrap: wrap;
@@ -276,7 +295,7 @@ footer {
   font-family: "Lucida Console", Monaco, monospace;
   font-weight: bold;
   z-index: 1;
-  color: var(--color-primary);
+  color: var(--color-text);
   transform: translateY(-50%);
 }
 
@@ -297,12 +316,12 @@ footer {
   }
 
   #prev {
-    left: -200px;
+    left: -185px;
     transform: translate(0, -50%);
   }
 
   #next {
-    right: -200px;
+    right: -185px;
     transform: translate(0, -50%);
   }
 }
