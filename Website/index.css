@@ -1,20 +1,23 @@
 :root {
-    --color-primary: #7f6390c4;
-    --color-secondary: #e4e4e4;
-    --color-text: #333333;
-    --color-background: #ffffff;
-  }  
+  --color-primary: #4d3863;
+  --color-secondary: #b7a6c6;
+  --color-text: #ffffff;
+  --color-background: #1e1e1e;
+} 
 
 html, body {
     height: 100%;
   }
   
+  @import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Sigmar One', sans-serif;
     background-color: var(--color-background);
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
   
   .login-container {
@@ -24,11 +27,12 @@ html, body {
   }
   
   .login-form {
+    border-radius: 10px;
     width: 100%;
     max-width: 400px;
     padding: 20px;
     background-color: var(--color-secondary);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 20px 20px 60px #6f26e4, -20px -10px 60px #6f26e4;
   }
   
   h1 {
@@ -73,12 +77,13 @@ html, body {
   }
 
   .circle {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background: radial-gradient(var(--color-primary), var(--color-secondary));
     border-radius: 50%;
     position: absolute;
     animation: move-up6 2s ease-in infinite alternate-reverse;
+    box-shadow: 20px 20px 60px #6f26e4, -20px -10px 60px #6f26e4;
   }
   
   .circle:nth-child(1) {

@@ -1,8 +1,8 @@
 :root {
-  --color-primary: #ff0080;  
-  --color-secondary: #00ffcc;  
-  --color-text: #ffffff;  
-  --color-background: #1d1d1d;  
+  --color-primary: #4d3863;
+  --color-secondary: #b7a6c6;
+  --color-text: #ffffff;
+  --color-background: #1e1e1e;
 }
 
  /* General styles */
@@ -205,6 +205,9 @@ main {
 /* Footer styles */
 
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: relative;
   bottom: 0;
   left: 0;
@@ -216,7 +219,11 @@ footer {
   text-align: center;
   margin: 0;
   padding: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer a.github-link {
+  margin-right: 30px;
+  float: none;
 }
 
 /* Slider style */
@@ -273,6 +280,7 @@ footer {
   border-radius: 50%;
   position: absolute;
   animation: move-up6 2s ease-in infinite alternate-reverse;
+  box-shadow: 20px 20px 60px #6f26e4, -20px -10px 60px #6f26e4;
 }
 
 .circle:nth-child(1) {
