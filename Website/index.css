@@ -71,10 +71,37 @@ html, body {
     border-radius: 5px;
     cursor: pointer;
   }
-  
+
   input[type="submit"]:hover {
     background-color: #6c5278;
   }
+
+  .input-file {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .label-file {
+    text-align: center;
+    background-color: var(--color-primary);
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin-bottom: 3vh;
+  }
+  
+  .label-file:hover {
+    opacity: 0.8;
+  }
+  
+  .label-file:active {
+    opacity: 0.6;
+  }  
 
   .circle {
     width: 150px;
