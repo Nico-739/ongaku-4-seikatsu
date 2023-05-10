@@ -14,7 +14,10 @@
       margin: 0;
       padding: 0;
       font-size: 16px;
-      background-color: var(--color-background);
+      background: linear-gradient(rgba(115, 0, 255, 0.09) 1px, transparent 1px),
+              linear-gradient(90deg, rgba(115, 0, 255, 0.09) 1px, transparent 1px),
+              #1e1e1e;
+    background-size: 100px 100px;
       color: var(--color-primary);
       overflow-x: hidden;
       min-height: 100vh;
@@ -205,73 +208,99 @@
     float: none;
   }
   
-  /* Card styles */
-  
+ /* Card styles */
+
+.card {
+  position: relative;
+  margin: 1%;
+  margin-top: 3.5%;
+  width: calc(50% - 2%);
+  height: 80vh;
+  width: 70vh;
+  background: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 20px 20px 60px #6f26e4, -20px -10px 60px #6f26e4;
+}
+
+.card h2 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 20px;
+  text-align: justify;
+  margin: 1rem;
+}
+
+@media (max-width: 768px) {
   .card {
-    position: relative;
-    margin: 1%;
-    margin-top: 3.5%;
-    width: calc(50% - 2%);
-    height: 60vh;
-    width: 60vh;
-    background: var(--color-secondary);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 19px;
-    font-weight: bold;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 20px 20px 60px #6f26e4, -20px -10px 60px #6f26e4;
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
   }
-  
-  .card h2 {
-    font-size: 28px;
-    margin-bottom: 1rem;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(var(--color-primary), var(--color-secondary));
+  border-radius: 50%;
+  position: absolute;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+
+.circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+  animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+  to {
+    transform: translateY(-15px);
   }
-  
-  .card p {
-    text-align: justify;
-    margin: 1rem;
+}
+
+@keyframes move-down1 {
+  to {
+    transform: translateY(15px);
   }
-  
-  @media (max-width: 768px) {
-    .card {
-      width: 100%;
-      height: auto;
-      margin: 2rem 0;
-    }
+}
+
+#profile-pic {
+  display: block;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 10px 10px 60px #6f26e4, -10px -10px 60px #6f26e4;
+}
+
+#profile-pic:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+  .profile-pic {
+    width: 50vh;
+    height: 50vh;
   }
-  
-  .circle {
-    width: 100px;
-    height: 100px;
-    background: radial-gradient(var(--color-primary), var(--color-secondary));
-    border-radius: 50%;
-    position: absolute;
-    animation: move-up6 2s ease-in infinite alternate-reverse;
-  }
-  
-  .circle:nth-child(1) {
-    top: -25px;
-    left: -25px;
-  }
-  
-  .circle:nth-child(2) {
-    bottom: -25px;
-    right: -25px;
-    animation-name: move-down1;
-  }
-  
-  @keyframes move-up6 {
-    to {
-      transform: translateY(-15px);
-    }
-  }
-  
-  @keyframes move-down1 {
-    to {
-      transform: translateY(15px);
-    }
-  }
+}
+

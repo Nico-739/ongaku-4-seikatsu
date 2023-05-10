@@ -14,7 +14,10 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  background-color: var(--color-background);
+  background: linear-gradient(rgba(115, 0, 255, 0.09) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(115, 0, 255, 0.09) 1px, transparent 1px),
+  #1e1e1e;
+  background-size: 100px 100px;
   color: var(--color-primary);
   overflow-x: hidden;
   min-height: 100vh;
