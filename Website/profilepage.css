@@ -230,12 +230,14 @@
 }
 
 .card h2 {
+  color: var(--color-text);
   font-size: 28px;
   margin-top: 0.4rem;
   margin-bottom: 1rem;
 }
 
 .card p {
+  color: var(--color-text);
   font-size: 20px;
   text-align: justify;
   margin: 1rem;

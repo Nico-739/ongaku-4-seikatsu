@@ -7,15 +7,15 @@ const artists = [
   { name: 'XXXTENTACION', image: '/Website/images/XXXTENTACION.png' },
   { name: 'NF', image: '/Website/images/NF.png' },
   { name: 'Lil Peep', image: '/Website/images/LilPeep.png' },
-  { name: 'Ski Mask The Slump God', image: '/Website/images/SkiMaskTheSlumpGod.png' },
+  { name: 'Ski Mask The Slump God', image: '/Website/images/SkiMask.png' },
   { name: '21 Savage', image: '/Website/images/21Savage.png' },
   { name: 'Eminem', image: '/Website/images/Eminem.png' },
   { name: 'SZA', image: '/Website/images/SZA.png' },
   { name: 'The Weeknd', image: '/Website/images/TheWeeknd.png' },
   { name: 'Metro Boomin', image: '/Website/images/MetroBoomin.png' },
-  { name: 'Travis Scott', image: '/Website/images/TravisScott.png' },
+  { name: 'Travis Scott', image: '/Website/images/Travis.png' },
   { name: 'Yeat', image: '/Website/images/Yeat.png' },
-  { name: 'Billie Eilish', image: '/Website/images/BillieEilish.png' },
+  { name: 'Billie Eilish', image: '/Website/images/billie eilish.png' },
   { name: 'ASAP Rocky', image: '/Website/images/ASAPRocky.png' }
 ];
 
