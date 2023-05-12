@@ -152,27 +152,6 @@ nav a:hover {
   }
 }
 
-/* Banner styles */
-
-.banner {
-  height: 100px;
-  background-color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-@media (max-width: 768px) {
-  .banner {
-    height: 80px;
-  }
-}
-
 /* Main styles */
 
 main {

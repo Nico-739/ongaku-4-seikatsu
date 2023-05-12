@@ -34,13 +34,17 @@ These wireframes were created using [Mockflow](https://wireframepro.mockflow.com
 
 ## Styleguide
 **Colors:**
-- **#333:** This color is used as the background color of the header and footer, as well as the color of the links in the site.
-- **mediumturquoise:** This color is used as the background color of the cards in column 2.
-- **lightblue:** This color is used as the background color of the pseudo-elements (::before and ::after) that appear on hover on the cards in column 2.
-- **#ebadb6 and #aceae1:** These colors are used as the start and end points of the gradient used in the background of the slider.
+
+#4d3863: This color is set as the primary color using the CSS variable --color-primary.
+#b7a6c6: This color is set as the secondary color using the CSS variable --color-secondary.
+#ffffff: This color is set as the text color using the CSS variable --color-text.
+#1e1e1e: This color is set as the background color using the CSS variable --color-background.
 
 **Fonts:**
-- Arial, sans-serif: This font family is used for the body of the site.
+
+Arial, sans-serif: This font family is used for the body of the site.
+'Sigmar One', sans-serif: This font family is imported from Google Fonts and used for other parts of the site.
+Additionally, the CSS code block sets the CSS variables for the color scheme, and imports the 'Sigmar One' font from Google Fonts for use in other parts of the site.
 
 **Logo:**
 

@@ -2,7 +2,7 @@ const main = document.querySelector('#card-container');
 
 // List of artists
 const artists = [
-  { name: 'Tyler, the Creator', image: '/Website/images/TylerTheCreator.png' },
+  { name: 'Tyler, the Creator', image: '/Website/images/TylerTheCreator.png', href: '/Tyler,TheCreator' },
   { name: 'Kendrick Lamar', image: '/Website/images/KendrickLamar.png' },
   { name: 'XXXTENTACION', image: '/Website/images/XXXTENTACION.png' },
   { name: 'NF', image: '/Website/images/NF.png' },
@@ -23,24 +23,29 @@ const artists = [
 for (let i = 0; i < 15; i++) {
   const card = document.createElement('div');
   card.classList.add('card');
-  
+
   const circle1 = document.createElement('div');
   circle1.classList.add('circle');
-  
+
   const circle2 = document.createElement('div');
   circle2.classList.add('circle');
-  
+
+  const artistLink = document.createElement('a');
+  artistLink.href = `/Website/Artists/${artists[i % artists.length].name.replace(/\s/g, '')}.html`;
+
   const artistImage = document.createElement('img');
   artistImage.src = artists[i % artists.length].image;
   artistImage.alt = artists[i % artists.length].name;
-  
+
   const artistName = document.createElement('h2');
   artistName.innerText = artists[i % artists.length].name;
-  
-  card.appendChild(circle1);
-  card.appendChild(circle2);
-  card.appendChild(artistImage);
-  card.appendChild(artistName);
-  
+
+  artistLink.appendChild(circle1);
+  artistLink.appendChild(circle2);
+  artistLink.appendChild(artistImage);
+  artistLink.appendChild(artistName);
+
+  card.appendChild(artistLink);
+
   main.appendChild(card);
 }
