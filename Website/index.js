@@ -65,9 +65,7 @@ window.addEventListener('load', function() {
 });
 
 const profilePics = [
-  'https://th.bing.com/th/id/R.94500e5b03e6276893fec4db34551896?rik=z1iL%2b8G%2fIO%2b04Q&pid=ImgRaw&r=0',
-  'https://i.pinimg.com/originals/8f/ad/4a/8fad4aa017d7a41a5995eca2b0b5f161.jpg',
-  'https://i.pinimg.com/736x/86/54/c6/8654c612ad6f4dd96591620dacc22411.jpg'
+  'https://i.pinimg.com/736x/ce/7a/c3/ce7ac3f6a631fa435b569d16eaa60a49.jpg',
 ];
 
 function getRandomNumber(max) {
